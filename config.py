@@ -34,10 +34,10 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1001895335215"
 
 # Optional: Human-readable channel names shown in force-sub buttons.
 # If left empty the bot will use the channel's actual title fetched from Telegram.
-FORCE_SUB_CHANNEL_1_NAME = os.environ.get("FORCE_SUB_CHANNEL_1_NAME", "FORCE_SUB_CHANNEL_1")
-FORCE_SUB_CHANNEL_2_NAME = os.environ.get("FORCE_SUB_CHANNEL_2_NAME", "FORCE_SUB_CHANNEL_2")
-FORCE_SUB_CHANNEL_3_NAME = os.environ.get("FORCE_SUB_CHANNEL_3_NAME", "FORCE_SUB_CHANNEL_3")
-FORCE_SUB_CHANNEL_4_NAME = os.environ.get("FORCE_SUB_CHANNEL_4_NAME", "FORCE_SUB_CHANNEL_4")
+FORCE_SUB_CHANNEL_1_NAME = os.environ.get("FORCE_SUB_CHANNEL_1_NAME", "")
+FORCE_SUB_CHANNEL_2_NAME = os.environ.get("FORCE_SUB_CHANNEL_2_NAME", "")
+FORCE_SUB_CHANNEL_3_NAME = os.environ.get("FORCE_SUB_CHANNEL_3_NAME", "")
+FORCE_SUB_CHANNEL_4_NAME = os.environ.get("FORCE_SUB_CHANNEL_4_NAME", "")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
