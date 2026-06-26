@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8957819603:AAF6gnpO4ldW-w8kEWkHDp8D3R0fxhTSHaw")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "14298205"))
@@ -20,11 +20,11 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001755253960"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1458235021"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8089")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Sadacaren4:alpha3720@nakflixtvbot.vtjzajt.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "fileshare_bot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1001899642588"))
@@ -34,10 +34,10 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1001895335215"
 
 # Optional: Human-readable channel names shown in force-sub buttons.
 # If left empty the bot will use the channel's actual title fetched from Telegram.
-FORCE_SUB_CHANNEL_1_NAME = os.environ.get("FORCE_SUB_CHANNEL_1_NAME", "")
-FORCE_SUB_CHANNEL_2_NAME = os.environ.get("FORCE_SUB_CHANNEL_2_NAME", "")
-FORCE_SUB_CHANNEL_3_NAME = os.environ.get("FORCE_SUB_CHANNEL_3_NAME", "")
-FORCE_SUB_CHANNEL_4_NAME = os.environ.get("FORCE_SUB_CHANNEL_4_NAME", "")
+FORCE_SUB_CHANNEL_1_NAME = os.environ.get("FORCE_SUB_CHANNEL_1_NAME", "FORCE_SUB_CHANNEL_1")
+FORCE_SUB_CHANNEL_2_NAME = os.environ.get("FORCE_SUB_CHANNEL_2_NAME", "FORCE_SUB_CHANNEL_2")
+FORCE_SUB_CHANNEL_3_NAME = os.environ.get("FORCE_SUB_CHANNEL_3_NAME", "FORCE_SUB_CHANNEL_3")
+FORCE_SUB_CHANNEL_4_NAME = os.environ.get("FORCE_SUB_CHANNEL_4_NAME", "FORCE_SUB_CHANNEL_4")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
